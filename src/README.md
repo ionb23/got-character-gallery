@@ -1,11 +1,12 @@
-# Game of Thrones Character Gallery: Deployment
-* In this demonstration, the instructor will walk you through the process of deploying a GitHub repo with Netlify via a continuous development pipeline.
+# Develop Character Gallery
 
-# Instructions
-* Follow along as your instructor demonstrates how to:
-  1. Create a [Netlify](https://www.netlify.com/) account with [GitHub](https://github.com/) credentials.
-  2. Create a repo called `got-character-gallery` on `GitHub`.
-  3. Create a continuous development pipeline between `Netlify` and the `got-character-gallery` repo housed on `GitHub`.
+In this activity, you will reinforce and build upon the testing and React skills that you have learned so far by designing and developing React components based on the prewritten tests.
+
+## Instructions
+
+Develop code that makes the tests provided in `starter` pass.
+
+**You must** utilize the data provide in the [characterData.json](./starter/src/data/characterData.json) to dynamically render your `Character` components.
 
 ---
 
