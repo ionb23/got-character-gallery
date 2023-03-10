@@ -128,4 +128,6 @@ describe('Character Component Renders Props', () => {
 
         expect(charSpouse).toBe(`Spouse: ${samwiseGamgee.spouse}`)
     })
+
+
 })
