@@ -7,7 +7,7 @@ const saveMyFavTeam =(item)=>{
 localStorage.setItem('Fav team', item.id);
 localStorage.setItem('NewsInfo', item.name)}
 
-    return (<section style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504016798967-59a258e9386d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')", backgroundSize: "cover", backgrounRepeat: "norepeat", position: "fixed", width: "100%", height: "100%" }}>
+    return (<section style={{ backgroundSize: "cover", backgrounRepeat: "norepeat", position: "fixed", width: "100%", height: "100%" }}>
         {localStorage.getItem('Fav team') ? <Navigate to="/home" replace /> : <Navigate to="/" replace />}
         <article  id="welcome" style={{ backgroundImage: "linear-gradient(0deg, transparent 0%, #05110090  10%, #1f3223 50%)", backgroundSize: "cover", backgroundRepeat: "norepeat", position: "fixed", width: "100%", height: "100%" }}>
         <div id="scroll-container" className="mt-3">
