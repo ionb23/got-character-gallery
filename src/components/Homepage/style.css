@@ -1,8 +1,6 @@
 ::-webkit-scrollbar {
     display: none;
 }
-/*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Big+Shoulders+Inline+Text:wght@800&family=Expletus+Sans&display=swap');
 
 /*  WELCOME COMPONENT*/
 
@@ -19,7 +17,6 @@
   #scroll-text {
     text-transform: uppercase;
     font-size:2rem;
-    font-family: 'Baloo Tammudu 2', cursive;
     /* animation properties */
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
@@ -56,11 +53,9 @@
 #welcome h1{
     color:#F09E05;
     font-size: 5rem;
-    font-family: 'Big Shoulders Inline Text', cursive;
 }
 #welcome h3{
     color:#398428;
-    font-family: 'Baloo Tammudu 2', cursive;
 }
 #welcome-button{
     margin-top:2%;
@@ -69,7 +64,6 @@
     color:#F09E05;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Baloo Tammudu 2', cursive;
     font-size:1.6rem;
     font-weight: 800;
     border:#F09E05 2px solid;
@@ -107,7 +101,6 @@
     
     color:#F09E05;
     font-size: 4rem;
-    font-family: 'Big Shoulders Inline Text', cursive;
     text-shadow:2px 4px rgb(51, 73, 33);
 }
 .homepageNewscard{
@@ -119,12 +112,10 @@
 }
 .homepageNewscard h5{
     color: #F09E05  !important;
-    font-family: 'Baloo Tammudu 2', cursive;
     }
 .articlecontent{
     height: 100%;
     width:80%;
-    font-family: 'Baloo Tammudu 2', cursive;
     overflow:scroll;
 }
 .card-title-info{
@@ -132,7 +123,6 @@
     font-size:2rem;
 }
 .homepagecard{
-    font-family: 'Baloo Tammudu 2', cursive;
     background-color: #1A3c15 !important ;
     border:#F09E05 2px solid !important;
     height: 40vh !important;
